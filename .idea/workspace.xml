@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4118724c-2d24-4da0-8005-14dd71c9ccc5" name="Changes" comment="Added lesson 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson2/Lesson_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson3Test.checkIncreaseSalaryNoDirectorTest">
+  <component name="RunManager" selected="Application.org.example.lesson3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -132,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.lesson3.Main" />
         <item itemvalue="JUnit.Lesson3Test.checkIncreaseSalaryNoDirectorTest" />
         <item itemvalue="JUnit.Lesson3Test.checkIncreaseSalaryTest" />
-        <item itemvalue="Application.org.example.lesson3.Main" />
         <item itemvalue="Application.org.example.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -185,6 +179,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson3" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>

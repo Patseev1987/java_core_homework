@@ -37,7 +37,8 @@ public class Main {
 
         Employee.averageAge(hornsAndHooves);
         Employee.averageSalary(hornsAndHooves);
-        System.out.println( Employee.compareTwoDate(20081212,20081212));
+        System.out.println( Employee.compareTwoDate(2009,12
+                ,12,2008,12,12));
     }
 
 }

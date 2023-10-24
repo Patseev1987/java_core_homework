@@ -1,6 +1,7 @@
 package org.example.lesson3;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 public class Employee {
     private String name;
@@ -104,7 +105,12 @@ public class Employee {
 
 
 
-    public static int compareTwoDate (int date1, int date2) {
-        return date1-date2;
+    public static long compareTwoDate (int date1Year, int date1Month, int date1Day
+            , int date2Year, int date2Month, int date2Day) {
+        Date date1 = new Date(date1Year,date1Month,date1Day);
+        long date1InLongFormat = date1.getTime();
+        Date date2 = new Date(date2Year,date2Month,date2Day);
+        long date2InLongFormat = date2.getTime();
+        return date1InLongFormat-date2InLongFormat;
     }
 }
